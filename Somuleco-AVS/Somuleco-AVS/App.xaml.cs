@@ -20,6 +20,7 @@ namespace Somuleco_AVS
         /// </summary>
         public App()
         {
+            Somuleco_AVS.Diagnostics.CrashLogger.RegisterXamlUnhandledException(this);
             InitializeComponent();
         }
 
